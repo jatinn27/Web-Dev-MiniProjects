@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Menu</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      .wrapper {
+        height: 100vh;
+        width: 100vw;
+        background: linear-gradient(to right, rgb(33, 28, 28), rgb(96, 86, 86));
+        overflow-x: hidden;
+        overflow-y: auto;
+        background-image: url("3d-render-spotlights-grunge-brick-wall_1048-6284.avif");
+      }
+
+      .navbartype {
+        width: 100vw;
+        height: 115px;
+      }
+      .logo {
+        display: flex;
+        justify-content: end;
+        height: 200px;
+        padding: 20px;
+      }
+      .logo img {
+        border-radius: 200px;
+        z-index: 100;
+      }
+      .design {
+        display: inline-block;
+      }
+      #text-cafe {
+        color: white;
+        font-size: 25px;
+      }
+
+      .underline {
+        height: 7px;
+        width: 85%;
+        border-radius: 50px;
+        background: linear-gradient(
+          to right,
+          rgb(178, 133, 9),
+          rgb(179, 149, 68)
+        );
+      }
+      .line {
+        height: 7px;
+        width: 50px;
+        background: linear-gradient(
+          to right,
+          rgb(178, 133, 9),
+          rgb(179, 149, 68)
+        );
+      }
+
+      h2 {
+        color: rgb(178, 133, 9);
+      }
+
+      .head h2 {
+        margin: 20px;
+        margin-left: 100px;
+      }
+
+      .design {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      .left {
+        margin: 0 auto;
+        font-size: 20px;
+      }
+      .right {
+        margin: 0 auto;
+        font-size: 20px;
+      }
+      .content {
+        color: white;
+        display: flex;
+        gap: 400px;
+        padding: 10px;
+      }
+      .content ul {
+        list-style-type: none;
+      }
+
+      li {
+        cursor: pointer;
+      }
+
+      .img-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 200px;
+      }
+
+      #frie {
+        width: 200x;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="navbartype">
+        <div class="logo">
+          <img src="images.jpeg" alt="" />
+        </div>
+      </div>
+      <div class="design">
+        <div class="underline"></div>
+      </div>
+      <div class="head">
+        <h2>CONTINENTAL & ITALIAN</h2>
+      </div>
+      <div class="content">
+        <div class="right">
+          <ul>
+            <li>MAGGI MASALA</li>
+            <li>POTATO WEDGES</li>
+            <li>FRENCH FRIES</li>
+            <li>POTATO CHEESE CROQUETTES</li>
+            <li>CHEESE BALLS</li>
+            <li>CRISPY CHEESE BUSTERS</li>
+            <li>GARLIC BREAD</li>
+            <li>CHEESE GARLIC BREAD</li>
+            <li>VEG RISOTTO</li>
+            <li>PENNE ARRABIATA</li>
+            <li>BAKED VEG</li>
+            <li>FUSILLI ALFREDO</li>
+            <li>CHEESE MACARONI</li>
+          </ul>
+        </div>
+        <div class="left">
+          <ul>
+            <li>100/-</li>
+            <li>100/-</li>
+            <li>100/-</li>
+            <li>100/-</li>
+            <li>100/-</li>
+            <li>100/-</li>
+            <li>100/-</li>
+            <li>100/-</li>
+            <li>100/-</li>
+            <li>100/-</li>
+            <li>100/-</li>
+            <li>100/-</li>
+            <li>100/-</li>
+          </ul>
+        </div>
+      </div>
+      <div class="head">
+        <h2>CHINESE SNACKS</h2>
+      </div>
+      <div class="content">
+        <div class="right">
+          <ul>
+            <li>VEG DIMSUMS</li>
+            <li>HONEY CHILLI POTATO</li>
+            <li>VEG PEPPER SALT</li>
+            <li>CRISPY CORN</li>
+            <li>VEG SPRING ROLL</li>
+            <li>CHILLI PANEER</li>
+            <li>GARLIC BREAD</li>
+            <li>CRISPY CHILLI MUSHROOM</li>
+            <li>CHICKEN WINGS</li>
+            <li>CHICKEN DIMSUMS</li>
+            <li>CHILLI CHICKEN</li>
+            <li>CHICKEN 65</li>
+            <li>CHICKEN DRUMSTICKS</li>
+          </ul>
+        </div>
+        <div class="left">
+          <ul>
+            <li>100/-</li>
+            <li>100/-</li>
+            <li>100/-</li>
+            <li>100/-</li>
+            <li>100/-</li>
+            <li>100/-</li>
+            <li>100/-</li>
+            <li>100/-</li>
+            <li>100/-</li>
+            <li>100/-</li>
+            <li>100/-</li>
+            <li>100/-</li>
+            <li>100/-</li>
+          </ul>
+        </div>
+      </div>
+      <footer>
+        <div class="img-container">
+          <img src="food-hearty-groddle-sammich.png" id="frie" />
+          <img src="food-kind-breakfurst-burrito.png" id="frie" />
+        </div>
+      </footer>
+    </div>
+    <script>
+      const items = document.querySelectorAll(".right li");
+      const prices = document.querySelectorAll(".left li");
+
+      items.forEach(function (item, index) {
+        item.addEventListener("mouseover", function () {
+          item.style.color = "rgb(178, 133, 9)";
+          prices[index].style.color = "rgb(178, 133, 9)";
+        });
+        item.addEventListener("mouseout", function () {
+          item.style.color = "";
+          prices[index].style.color = "";
+        });
+      });
+
+      prices.forEach(function (price, index) {
+        price.addEventListener("mouseover", function () {
+          price.style.color = "rgb(178, 133, 9)";
+          items[index].style.color = "rgb(178, 133, 9)";
+        });
+        price.addEventListener("mouseout", function () {
+          price.style.color = "";
+          items[index].style.color = "";
+        });
+      });
+    </script>
+  </body>
+</html>
