@@ -17,7 +17,7 @@
   <tbody>
     <tr>
       <td>1</td>
-      <td><a href="https://3-parralax.netlify.app">Parallax</a></td>
+      <td><a href="https://3-parralax.netlify.app">3-Parallax</a></td>
     </tr>
     <tr>
   </tbody>
