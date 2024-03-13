@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 200px;
+    border-radius: 500px;
+}
+
+.head h1{
+    text-align: center;
+}
+
+.underline{
+    background-color: rgb(67, 123, 134);
+    height: 5px;
+    width: 45px;
+    margin: 0 auto;
+}
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    width: 450px;
+    margin-top: 20px;
+    border: 2px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+#name{
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+#job{
+    font-size: large;
+    font-weight: bold;
+}
+
+
+.reviews p{
+    text-wrap:wrap;
+    text-align: center;
+}
+h2{
+    color: rgb(67, 123, 134);
+}
+h4{
+    color: rgb(67, 123, 134);
+}
+
+.info{
+    width: 450px;
+}
+.btns{
+    display: flex;
+    gap: 40px;
+}
+.btn{
+    color: rgb(67, 123, 134);
+    font-weight: bold;
+    font-size: x-large;
+    background-color: white;
+    border: white;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
