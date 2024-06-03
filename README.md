@@ -2,11 +2,11 @@
 
 ## Table of Contents
 
-| S.No. | Project       | Details                           |
+| S.No. | Project       | Link                             |
 |-------|---------------|-----------------------------------|
-| 1.    | Project One   | [Details](#project-one-details)   |
-| 2.    | Project Two   | [Details](#project-two-details)   |
-| 3.    | Project Three | [Details](#project-three-details) |
+| 1.    | Project One   | [Details](#project-one)           |
+| 2.    | Project Two   | [Details](#project-two)           |
+| 3.    | Project Three | [Details](#project-three)         |
 
 ## Project One
 
@@ -18,7 +18,7 @@ Project One is an application designed to [brief description of Project One].
 - Feature 2
 - Feature 3
 
-### Project One Details
+### Project One Deployment
 
 - Deployment Link: [https://project-one.netlify.app](https://project-one.netlify.app)
 
@@ -32,7 +32,7 @@ Project Two is a web service that [brief description of Project Two].
 - Feature B
 - Feature C
 
-### Project Two Details
+### Project Two Deployment
 
 - Deployment Link: [https://project-two.netlify.app](https://project-two.netlify.app)
 
@@ -46,7 +46,7 @@ Project Three is a mobile application that [brief description of Project Three].
 - Feature Y
 - Feature Z
 
-### Project Three Details
+### Project Three Deployment
 
 - Deployment Link: [https://project-three.netlify.app](https://project-three.netlify.app)
 
