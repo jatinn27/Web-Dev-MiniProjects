@@ -2,11 +2,11 @@
 
 ## Table of Contents
 
-| S.No. | Project       | Link                             |
-|-------|---------------|-----------------------------------|
-| 1.    | Project One   | (#project-one)           |
-| 2.    | Project Two   | (#project-two)           |
-| 3.    | Project Three | (#project-three)         |
+| S.No. | Project       | Link              |
+|-------|---------------|-------------------|
+| 1.    | Project One   | [Go to Project](#project-one)   |
+| 2.    | Project Two   | [Go to Project](#project-two)   |
+| 3.    | Project Three | [Go to Project](#project-three) |
 
 ## Project One
 
