@@ -4,9 +4,9 @@
 
 | S.No. | Project       | Link                             |
 |-------|---------------|-----------------------------------|
-| 1.    | Project One   | [Details](#project-one)           |
-| 2.    | Project Two   | [Details](#project-two)           |
-| 3.    | Project Three | [Details](#project-three)         |
+| 1.    | Project One   | (#project-one)           |
+| 2.    | Project Two   | (#project-two)           |
+| 3.    | Project Three | (#project-three)         |
 
 ## Project One
 
