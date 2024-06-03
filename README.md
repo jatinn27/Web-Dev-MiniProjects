@@ -21,6 +21,7 @@ Link: [https://basiclibrarryform.netlify.app/](https://basiclibrarryform.netlify
 
 ### Overview
 This project is a simple, static clone of a website. It aims to recreate the visual and functional aspects of the original website, focusing primarily on the header (navigation bar) and the hero section. The project is built using HTML and CSS.
+Project assests and code inspiration as a learner has been taken from github itself. 
 
 ### Deployment
 Link: [https://navbarandfront.netlify.app/](https://navbarandfront.netlify.app/)
