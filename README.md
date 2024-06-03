@@ -4,52 +4,18 @@
 
 | S.No. | Project       | Link              |
 |-------|---------------|-------------------|
-| 1.    | Project One   | [Go to Project](#project-one)   |
+| 1.    | Project One   | [Go to Project](#Library-Form)   |
 | 2.    | Project Two   | [Go to Project](#project-two)   |
 | 3.    | Project Three | [Go to Project](#project-three) |
 
-## Project One
+## Library Form
 
 ### Overview
-Project One is an application designed to [brief description of Project One].
-
-### Features
-- Feature 1
-- Feature 2
-- Feature 3
+In this various html tags were used to replicate a library form. Focus was on structure rather than styling.
 
 ### Project One Deployment
 
 - Deployment Link: [https://project-one.netlify.app](https://project-one.netlify.app)
 
-## Project Two
 
-### Overview
-Project Two is a web service that [brief description of Project Two].
 
-### Features
-- Feature A
-- Feature B
-- Feature C
-
-### Project Two Deployment
-
-- Deployment Link: [https://project-two.netlify.app](https://project-two.netlify.app)
-
-## Project Three
-
-### Overview
-Project Three is a mobile application that [brief description of Project Three].
-
-### Features
-- Feature X
-- Feature Y
-- Feature Z
-
-### Project Three Deployment
-
-- Deployment Link: [https://project-three.netlify.app](https://project-three.netlify.app)
-
-## Additional Notes
-- Ensure you have the necessary permissions and tools installed to deploy each project.
-- Refer to the documentation within each project for more detailed instructions and troubleshooting.
