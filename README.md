@@ -1,4 +1,4 @@
-# Project README
+# MINI PROJECTS OVERVIEW
 
 ## Table of Contents
 
