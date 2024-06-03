@@ -14,7 +14,7 @@
 In this various html tags were used to replicate a library form. Focus was on structure rather than styling.
 
 ### Deployment
-Link: [https://project-one.netlify.app](https://project-one.netlify.app)
+Link: [[https://project-one.netlify.app](https://project-one.netlify.app)](https://basiclibrarryform.netlify.app/)
 
 
 
