@@ -4,7 +4,7 @@
 
 | S.No. | Project       | Link              |
 |-------|---------------|-------------------|
-| 1.    | Project One   | [Go to Project](#Library-Form)   |
+| 1.    | Library Form   | [Go to Project](#Library-Form)   |
 | 2.    | Project Two   | [Go to Project](#project-two)   |
 | 3.    | Project Three | [Go to Project](#project-three) |
 
